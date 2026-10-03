@@ -1,0 +1,3327 @@
+{
+  "all_results": [
+    {
+      "image_id": "animal_1",
+      "category": "animal",
+      "complexity": 0.3751220703125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 38,
+      "actual_ssim": 0.8047363646653597,
+      "reduction": 70.2545166015625
+    },
+    {
+      "image_id": "animal_1",
+      "category": "animal",
+      "complexity": 0.3751220703125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 67,
+      "actual_ssim": 0.9004677500059887,
+      "reduction": 47.55401611328125
+    },
+    {
+      "image_id": "animal_1",
+      "category": "animal",
+      "complexity": 0.3751220703125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 96,
+      "actual_ssim": 0.9505926371892156,
+      "reduction": 24.853515625
+    },
+    {
+      "image_id": "animal_10",
+      "category": "animal",
+      "complexity": 0.1559295654296875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 22,
+      "actual_ssim": 0.8042519123798608,
+      "reduction": 82.7789306640625
+    },
+    {
+      "image_id": "animal_10",
+      "category": "animal",
+      "complexity": 0.1559295654296875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 43,
+      "actual_ssim": 0.9013452541548445,
+      "reduction": 66.34063720703125
+    },
+    {
+      "image_id": "animal_10",
+      "category": "animal",
+      "complexity": 0.1559295654296875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 64,
+      "actual_ssim": 0.9507655898998636,
+      "reduction": 49.90234375
+    },
+    {
+      "image_id": "animal_11",
+      "category": "animal",
+      "complexity": 0.1440277099609375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 17,
+      "actual_ssim": 0.8025356469166741,
+      "reduction": 86.69281005859375
+    },
+    {
+      "image_id": "animal_11",
+      "category": "animal",
+      "complexity": 0.1440277099609375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 35,
+      "actual_ssim": 0.9011388131469292,
+      "reduction": 72.60284423828125
+    },
+    {
+      "image_id": "animal_11",
+      "category": "animal",
+      "complexity": 0.1440277099609375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 55,
+      "actual_ssim": 0.950667867733222,
+      "reduction": 56.94732666015625
+    },
+    {
+      "image_id": "animal_12",
+      "category": "animal",
+      "complexity": 0.423309326171875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8013803163536374,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "animal_12",
+      "category": "animal",
+      "complexity": 0.423309326171875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 63,
+      "actual_ssim": 0.9004369235099814,
+      "reduction": 50.68511962890625
+    },
+    {
+      "image_id": "animal_12",
+      "category": "animal",
+      "complexity": 0.423309326171875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 89,
+      "actual_ssim": 0.9509423356770788,
+      "reduction": 30.33294677734375
+    },
+    {
+      "image_id": "animal_13",
+      "category": "animal",
+      "complexity": 0.2375640869140625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 25,
+      "actual_ssim": 0.8067120880521093,
+      "reduction": 80.43060302734375
+    },
+    {
+      "image_id": "animal_13",
+      "category": "animal",
+      "complexity": 0.2375640869140625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 42,
+      "actual_ssim": 0.9008990265515464,
+      "reduction": 67.1234130859375
+    },
+    {
+      "image_id": "animal_13",
+      "category": "animal",
+      "complexity": 0.2375640869140625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 65,
+      "actual_ssim": 0.9511163360311397,
+      "reduction": 49.11956787109375
+    },
+    {
+      "image_id": "animal_14",
+      "category": "animal",
+      "complexity": 0.2873992919921875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 23,
+      "actual_ssim": 0.8057107970830053,
+      "reduction": 81.99615478515625
+    },
+    {
+      "image_id": "animal_14",
+      "category": "animal",
+      "complexity": 0.2873992919921875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 48,
+      "actual_ssim": 0.9004430267492144,
+      "reduction": 62.4267578125
+    },
+    {
+      "image_id": "animal_14",
+      "category": "animal",
+      "complexity": 0.2873992919921875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 75,
+      "actual_ssim": 0.95112867310524,
+      "reduction": 41.29180908203125
+    },
+    {
+      "image_id": "animal_15",
+      "category": "animal",
+      "complexity": 0.29864501953125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 27,
+      "actual_ssim": 0.8017801646968503,
+      "reduction": 78.86505126953125
+    },
+    {
+      "image_id": "animal_15",
+      "category": "animal",
+      "complexity": 0.29864501953125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 48,
+      "actual_ssim": 0.902818537978363,
+      "reduction": 62.4267578125
+    },
+    {
+      "image_id": "animal_15",
+      "category": "animal",
+      "complexity": 0.29864501953125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 69,
+      "actual_ssim": 0.9512684542727032,
+      "reduction": 45.98846435546875
+    },
+    {
+      "image_id": "animal_2",
+      "category": "animal",
+      "complexity": 0.36322021484375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 24,
+      "actual_ssim": 0.801951617269801,
+      "reduction": 81.21337890625
+    },
+    {
+      "image_id": "animal_2",
+      "category": "animal",
+      "complexity": 0.36322021484375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 40,
+      "actual_ssim": 0.901613131135243,
+      "reduction": 68.68896484375
+    },
+    {
+      "image_id": "animal_2",
+      "category": "animal",
+      "complexity": 0.36322021484375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 58,
+      "actual_ssim": 0.951129640438953,
+      "reduction": 54.5989990234375
+    },
+    {
+      "image_id": "animal_3",
+      "category": "animal",
+      "complexity": 0.25,
+      "target_ssim": 0.8,
+      "adaptive_rank": 19,
+      "actual_ssim": 0.8046095073995815,
+      "reduction": 85.12725830078125
+    },
+    {
+      "image_id": "animal_3",
+      "category": "animal",
+      "complexity": 0.25,
+      "target_ssim": 0.9,
+      "adaptive_rank": 35,
+      "actual_ssim": 0.9033736339595948,
+      "reduction": 72.60284423828125
+    },
+    {
+      "image_id": "animal_3",
+      "category": "animal",
+      "complexity": 0.25,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.9501922144388067,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "animal_4",
+      "category": "animal",
+      "complexity": 0.421478271484375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 15,
+      "actual_ssim": 0.8086087380418251,
+      "reduction": 88.25836181640625
+    },
+    {
+      "image_id": "animal_4",
+      "category": "animal",
+      "complexity": 0.421478271484375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.9026221936555252,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "animal_4",
+      "category": "animal",
+      "complexity": 0.421478271484375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 42,
+      "actual_ssim": 0.9522108804956344,
+      "reduction": 67.1234130859375
+    },
+    {
+      "image_id": "animal_5",
+      "category": "animal",
+      "complexity": 0.2150726318359375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 21,
+      "actual_ssim": 0.8045285021684689,
+      "reduction": 83.56170654296875
+    },
+    {
+      "image_id": "animal_5",
+      "category": "animal",
+      "complexity": 0.2150726318359375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.9009865804462244,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "animal_5",
+      "category": "animal",
+      "complexity": 0.2150726318359375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 53,
+      "actual_ssim": 0.9504972734420132,
+      "reduction": 58.51287841796875
+    },
+    {
+      "image_id": "animal_6",
+      "category": "animal",
+      "complexity": 0.2109222412109375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8082132124478975,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "animal_6",
+      "category": "animal",
+      "complexity": 0.2109222412109375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 29,
+      "actual_ssim": 0.9039892206411264,
+      "reduction": 77.29949951171875
+    },
+    {
+      "image_id": "animal_6",
+      "category": "animal",
+      "complexity": 0.2109222412109375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.9508607637636488,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "animal_7",
+      "category": "animal",
+      "complexity": 0.3588409423828125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 29,
+      "actual_ssim": 0.8002888550576209,
+      "reduction": 77.29949951171875
+    },
+    {
+      "image_id": "animal_7",
+      "category": "animal",
+      "complexity": 0.3588409423828125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 51,
+      "actual_ssim": 0.901779378326228,
+      "reduction": 60.07843017578125
+    },
+    {
+      "image_id": "animal_7",
+      "category": "animal",
+      "complexity": 0.3588409423828125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 74,
+      "actual_ssim": 0.9507248738199596,
+      "reduction": 42.0745849609375
+    },
+    {
+      "image_id": "animal_8",
+      "category": "animal",
+      "complexity": 0.4361419677734375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 40,
+      "actual_ssim": 0.8001344273054317,
+      "reduction": 68.68896484375
+    },
+    {
+      "image_id": "animal_8",
+      "category": "animal",
+      "complexity": 0.4361419677734375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 68,
+      "actual_ssim": 0.9014902553939844,
+      "reduction": 46.771240234375
+    },
+    {
+      "image_id": "animal_8",
+      "category": "animal",
+      "complexity": 0.4361419677734375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 96,
+      "actual_ssim": 0.9510474925172608,
+      "reduction": 24.853515625
+    },
+    {
+      "image_id": "animal_9",
+      "category": "animal",
+      "complexity": 0.3995819091796875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 29,
+      "actual_ssim": 0.806978028333222,
+      "reduction": 77.29949951171875
+    },
+    {
+      "image_id": "animal_9",
+      "category": "animal",
+      "complexity": 0.3995819091796875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 49,
+      "actual_ssim": 0.902642097721939,
+      "reduction": 61.64398193359375
+    },
+    {
+      "image_id": "animal_9",
+      "category": "animal",
+      "complexity": 0.3995819091796875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 71,
+      "actual_ssim": 0.950270574039959,
+      "reduction": 44.42291259765625
+    },
+    {
+      "image_id": "architecture_1",
+      "category": "architecture",
+      "complexity": 0.3399200439453125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8026089356504323,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_1",
+      "category": "architecture",
+      "complexity": 0.3399200439453125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 31,
+      "actual_ssim": 0.9000465511639603,
+      "reduction": 75.73394775390625
+    },
+    {
+      "image_id": "architecture_1",
+      "category": "architecture",
+      "complexity": 0.3399200439453125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 46,
+      "actual_ssim": 0.950167815273012,
+      "reduction": 63.9923095703125
+    },
+    {
+      "image_id": "architecture_10",
+      "category": "architecture",
+      "complexity": 0.3391571044921875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.801777444670822,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_10",
+      "category": "architecture",
+      "complexity": 0.3391571044921875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9039563049917289,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "architecture_10",
+      "category": "architecture",
+      "complexity": 0.3391571044921875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 47,
+      "actual_ssim": 0.9518194670182092,
+      "reduction": 63.20953369140625
+    },
+    {
+      "image_id": "architecture_11",
+      "category": "architecture",
+      "complexity": 0.3402557373046875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.803585127280693,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_11",
+      "category": "architecture",
+      "complexity": 0.3402557373046875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9036642782825446,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "architecture_11",
+      "category": "architecture",
+      "complexity": 0.3402557373046875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 47,
+      "actual_ssim": 0.9516727025463108,
+      "reduction": 63.20953369140625
+    },
+    {
+      "image_id": "architecture_12",
+      "category": "architecture",
+      "complexity": 0.339752197265625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8021484910939091,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_12",
+      "category": "architecture",
+      "complexity": 0.339752197265625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.903563886394099,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "architecture_12",
+      "category": "architecture",
+      "complexity": 0.339752197265625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 47,
+      "actual_ssim": 0.951648674130868,
+      "reduction": 63.20953369140625
+    },
+    {
+      "image_id": "architecture_13",
+      "category": "architecture",
+      "complexity": 0.33978271484375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8046278423633577,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_13",
+      "category": "architecture",
+      "complexity": 0.33978271484375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 31,
+      "actual_ssim": 0.9006409841398307,
+      "reduction": 75.73394775390625
+    },
+    {
+      "image_id": "architecture_13",
+      "category": "architecture",
+      "complexity": 0.33978271484375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 46,
+      "actual_ssim": 0.950081249680355,
+      "reduction": 63.9923095703125
+    },
+    {
+      "image_id": "architecture_14",
+      "category": "architecture",
+      "complexity": 0.33984375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.802056893558282,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_14",
+      "category": "architecture",
+      "complexity": 0.33984375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9028869165731512,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "architecture_14",
+      "category": "architecture",
+      "complexity": 0.33984375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 47,
+      "actual_ssim": 0.9516814505267231,
+      "reduction": 63.20953369140625
+    },
+    {
+      "image_id": "architecture_15",
+      "category": "architecture",
+      "complexity": 0.3417510986328125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8011946428370328,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_15",
+      "category": "architecture",
+      "complexity": 0.3417510986328125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.903153412932184,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "architecture_15",
+      "category": "architecture",
+      "complexity": 0.3417510986328125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 47,
+      "actual_ssim": 0.9512256098176668,
+      "reduction": 63.20953369140625
+    },
+    {
+      "image_id": "architecture_2",
+      "category": "architecture",
+      "complexity": 0.3410797119140625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8033959717991834,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_2",
+      "category": "architecture",
+      "complexity": 0.3410797119140625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9041185907037382,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "architecture_2",
+      "category": "architecture",
+      "complexity": 0.3410797119140625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 46,
+      "actual_ssim": 0.9500557226383276,
+      "reduction": 63.9923095703125
+    },
+    {
+      "image_id": "architecture_3",
+      "category": "architecture",
+      "complexity": 0.3393707275390625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8027989817532605,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_3",
+      "category": "architecture",
+      "complexity": 0.3393707275390625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9032159636907494,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "architecture_3",
+      "category": "architecture",
+      "complexity": 0.3393707275390625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 47,
+      "actual_ssim": 0.9517945865246178,
+      "reduction": 63.20953369140625
+    },
+    {
+      "image_id": "architecture_4",
+      "category": "architecture",
+      "complexity": 0.340118408203125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8029293159646671,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_4",
+      "category": "architecture",
+      "complexity": 0.340118408203125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 31,
+      "actual_ssim": 0.9005270468656205,
+      "reduction": 75.73394775390625
+    },
+    {
+      "image_id": "architecture_4",
+      "category": "architecture",
+      "complexity": 0.340118408203125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 47,
+      "actual_ssim": 0.9507833694617874,
+      "reduction": 63.20953369140625
+    },
+    {
+      "image_id": "architecture_5",
+      "category": "architecture",
+      "complexity": 0.3403167724609375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8036179105372949,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_5",
+      "category": "architecture",
+      "complexity": 0.3403167724609375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 31,
+      "actual_ssim": 0.9007893856520286,
+      "reduction": 75.73394775390625
+    },
+    {
+      "image_id": "architecture_5",
+      "category": "architecture",
+      "complexity": 0.3403167724609375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 46,
+      "actual_ssim": 0.950805978362992,
+      "reduction": 63.9923095703125
+    },
+    {
+      "image_id": "architecture_6",
+      "category": "architecture",
+      "complexity": 0.339111328125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8016180534678674,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_6",
+      "category": "architecture",
+      "complexity": 0.339111328125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9037999504464144,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "architecture_6",
+      "category": "architecture",
+      "complexity": 0.339111328125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 46,
+      "actual_ssim": 0.95039996132435,
+      "reduction": 63.9923095703125
+    },
+    {
+      "image_id": "architecture_7",
+      "category": "architecture",
+      "complexity": 0.3406524658203125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.802535760792591,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_7",
+      "category": "architecture",
+      "complexity": 0.3406524658203125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9028947167909096,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "architecture_7",
+      "category": "architecture",
+      "complexity": 0.3406524658203125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 46,
+      "actual_ssim": 0.9503895548362786,
+      "reduction": 63.9923095703125
+    },
+    {
+      "image_id": "architecture_8",
+      "category": "architecture",
+      "complexity": 0.34075927734375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8042184637161723,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_8",
+      "category": "architecture",
+      "complexity": 0.34075927734375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 31,
+      "actual_ssim": 0.9002000552982666,
+      "reduction": 75.73394775390625
+    },
+    {
+      "image_id": "architecture_8",
+      "category": "architecture",
+      "complexity": 0.34075927734375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 47,
+      "actual_ssim": 0.9512859052152188,
+      "reduction": 63.20953369140625
+    },
+    {
+      "image_id": "architecture_9",
+      "category": "architecture",
+      "complexity": 0.3402099609375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 18,
+      "actual_ssim": 0.8032222737217852,
+      "reduction": 85.9100341796875
+    },
+    {
+      "image_id": "architecture_9",
+      "category": "architecture",
+      "complexity": 0.3402099609375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 31,
+      "actual_ssim": 0.9000545641457623,
+      "reduction": 75.73394775390625
+    },
+    {
+      "image_id": "architecture_9",
+      "category": "architecture",
+      "complexity": 0.3402099609375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 46,
+      "actual_ssim": 0.9501365246199214,
+      "reduction": 63.9923095703125
+    },
+    {
+      "image_id": "document_1",
+      "category": "document",
+      "complexity": 0.29803466796875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8034834453073545,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_1",
+      "category": "document",
+      "complexity": 0.29803466796875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 58,
+      "actual_ssim": 0.900358385971113,
+      "reduction": 54.5989990234375
+    },
+    {
+      "image_id": "document_1",
+      "category": "document",
+      "complexity": 0.29803466796875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9505157697626058,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "document_10",
+      "category": "document",
+      "complexity": 0.2999725341796875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 31,
+      "actual_ssim": 0.8000172903803353,
+      "reduction": 75.73394775390625
+    },
+    {
+      "image_id": "document_10",
+      "category": "document",
+      "complexity": 0.2999725341796875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 58,
+      "actual_ssim": 0.9000685692156899,
+      "reduction": 54.5989990234375
+    },
+    {
+      "image_id": "document_10",
+      "category": "document",
+      "complexity": 0.2999725341796875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9509970126351528,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "document_11",
+      "category": "document",
+      "complexity": 0.29888916015625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8031365372230471,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_11",
+      "category": "document",
+      "complexity": 0.29888916015625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 58,
+      "actual_ssim": 0.9001713439629904,
+      "reduction": 54.5989990234375
+    },
+    {
+      "image_id": "document_11",
+      "category": "document",
+      "complexity": 0.29888916015625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.9505888830331234,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "document_12",
+      "category": "document",
+      "complexity": 0.298431396484375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8041728257957962,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_12",
+      "category": "document",
+      "complexity": 0.298431396484375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 58,
+      "actual_ssim": 0.9004317410568614,
+      "reduction": 54.5989990234375
+    },
+    {
+      "image_id": "document_12",
+      "category": "document",
+      "complexity": 0.298431396484375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9507419451213078,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "document_13",
+      "category": "document",
+      "complexity": 0.2987060546875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.803105851512902,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_13",
+      "category": "document",
+      "complexity": 0.2987060546875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 58,
+      "actual_ssim": 0.9015301992495814,
+      "reduction": 54.5989990234375
+    },
+    {
+      "image_id": "document_13",
+      "category": "document",
+      "complexity": 0.2987060546875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9509282483232758,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "document_14",
+      "category": "document",
+      "complexity": 0.2994842529296875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.803568476230653,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_14",
+      "category": "document",
+      "complexity": 0.2994842529296875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9025150771184404,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "document_14",
+      "category": "document",
+      "complexity": 0.2994842529296875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.9505786773428933,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "document_15",
+      "category": "document",
+      "complexity": 0.2982635498046875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8011575764970386,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_15",
+      "category": "document",
+      "complexity": 0.2982635498046875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9021286150088436,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "document_15",
+      "category": "document",
+      "complexity": 0.2982635498046875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.9507367090465988,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "document_2",
+      "category": "document",
+      "complexity": 0.29913330078125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8035402076927861,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_2",
+      "category": "document",
+      "complexity": 0.29913330078125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9020165751936328,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "document_2",
+      "category": "document",
+      "complexity": 0.29913330078125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.9511900231601326,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "document_3",
+      "category": "document",
+      "complexity": 0.298675537109375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8037709090792934,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_3",
+      "category": "document",
+      "complexity": 0.298675537109375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 58,
+      "actual_ssim": 0.9008981925267214,
+      "reduction": 54.5989990234375
+    },
+    {
+      "image_id": "document_3",
+      "category": "document",
+      "complexity": 0.298675537109375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.950255897055047,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "document_4",
+      "category": "document",
+      "complexity": 0.299224853515625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8038353591804142,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_4",
+      "category": "document",
+      "complexity": 0.299224853515625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 58,
+      "actual_ssim": 0.9001058770756983,
+      "reduction": 54.5989990234375
+    },
+    {
+      "image_id": "document_4",
+      "category": "document",
+      "complexity": 0.299224853515625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9510078379229512,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "document_5",
+      "category": "document",
+      "complexity": 0.2977294921875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8022010180891206,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_5",
+      "category": "document",
+      "complexity": 0.2977294921875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 58,
+      "actual_ssim": 0.9001156122204987,
+      "reduction": 54.5989990234375
+    },
+    {
+      "image_id": "document_5",
+      "category": "document",
+      "complexity": 0.2977294921875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9502862666548344,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "document_6",
+      "category": "document",
+      "complexity": 0.299407958984375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8021560477016303,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_6",
+      "category": "document",
+      "complexity": 0.299407958984375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9024780507808317,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "document_6",
+      "category": "document",
+      "complexity": 0.299407958984375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.9503912529012823,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "document_7",
+      "category": "document",
+      "complexity": 0.2983551025390625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8020053544130666,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_7",
+      "category": "document",
+      "complexity": 0.2983551025390625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9025521684727166,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "document_7",
+      "category": "document",
+      "complexity": 0.2983551025390625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.9501951408578518,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "document_8",
+      "category": "document",
+      "complexity": 0.2985992431640625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8018451276188023,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_8",
+      "category": "document",
+      "complexity": 0.2985992431640625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 58,
+      "actual_ssim": 0.9006940374830293,
+      "reduction": 54.5989990234375
+    },
+    {
+      "image_id": "document_8",
+      "category": "document",
+      "complexity": 0.2985992431640625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.9509551029322618,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "document_9",
+      "category": "document",
+      "complexity": 0.2983551025390625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.8024286188067097,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "document_9",
+      "category": "document",
+      "complexity": 0.2983551025390625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9030244692657972,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "document_9",
+      "category": "document",
+      "complexity": 0.2983551025390625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.951288483600449,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "indoor_1",
+      "category": "indoor",
+      "complexity": 0.2622222900390625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.8030810650114658,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_1",
+      "category": "indoor",
+      "complexity": 0.2622222900390625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 72,
+      "actual_ssim": 0.9021883995747778,
+      "reduction": 43.64013671875
+    },
+    {
+      "image_id": "indoor_1",
+      "category": "indoor",
+      "complexity": 0.2622222900390625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.950584655431895,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "indoor_10",
+      "category": "indoor",
+      "complexity": 0.2627410888671875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.8033660057279778,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_10",
+      "category": "indoor",
+      "complexity": 0.2627410888671875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 72,
+      "actual_ssim": 0.9011396490507771,
+      "reduction": 43.64013671875
+    },
+    {
+      "image_id": "indoor_10",
+      "category": "indoor",
+      "complexity": 0.2627410888671875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.950010948900126,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "indoor_11",
+      "category": "indoor",
+      "complexity": 0.2637786865234375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.8037462293513015,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_11",
+      "category": "indoor",
+      "complexity": 0.2637786865234375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 71,
+      "actual_ssim": 0.9000382293406176,
+      "reduction": 44.42291259765625
+    },
+    {
+      "image_id": "indoor_11",
+      "category": "indoor",
+      "complexity": 0.2637786865234375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 99,
+      "actual_ssim": 0.9511148171989982,
+      "reduction": 22.50518798828125
+    },
+    {
+      "image_id": "indoor_12",
+      "category": "indoor",
+      "complexity": 0.26361083984375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.803242360513151,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_12",
+      "category": "indoor",
+      "complexity": 0.26361083984375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 72,
+      "actual_ssim": 0.9022090781022044,
+      "reduction": 43.64013671875
+    },
+    {
+      "image_id": "indoor_12",
+      "category": "indoor",
+      "complexity": 0.26361083984375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.9503586737032328,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "indoor_13",
+      "category": "indoor",
+      "complexity": 0.2599639892578125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.8028923852504279,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_13",
+      "category": "indoor",
+      "complexity": 0.2599639892578125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 72,
+      "actual_ssim": 0.9024100357274022,
+      "reduction": 43.64013671875
+    },
+    {
+      "image_id": "indoor_13",
+      "category": "indoor",
+      "complexity": 0.2599639892578125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.9501068972816524,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "indoor_14",
+      "category": "indoor",
+      "complexity": 0.262908935546875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.8041337810980993,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_14",
+      "category": "indoor",
+      "complexity": 0.262908935546875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 72,
+      "actual_ssim": 0.9022491960318224,
+      "reduction": 43.64013671875
+    },
+    {
+      "image_id": "indoor_14",
+      "category": "indoor",
+      "complexity": 0.262908935546875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.9505388350064295,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "indoor_15",
+      "category": "indoor",
+      "complexity": 0.262359619140625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 40,
+      "actual_ssim": 0.8008688243022463,
+      "reduction": 68.68896484375
+    },
+    {
+      "image_id": "indoor_15",
+      "category": "indoor",
+      "complexity": 0.262359619140625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 71,
+      "actual_ssim": 0.9014536050488058,
+      "reduction": 44.42291259765625
+    },
+    {
+      "image_id": "indoor_15",
+      "category": "indoor",
+      "complexity": 0.262359619140625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.9511757088223576,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "indoor_2",
+      "category": "indoor",
+      "complexity": 0.261962890625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.8039888950380081,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_2",
+      "category": "indoor",
+      "complexity": 0.261962890625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 71,
+      "actual_ssim": 0.900829717045485,
+      "reduction": 44.42291259765625
+    },
+    {
+      "image_id": "indoor_2",
+      "category": "indoor",
+      "complexity": 0.261962890625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.95016472119028,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "indoor_3",
+      "category": "indoor",
+      "complexity": 0.261566162109375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.8033921577190517,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_3",
+      "category": "indoor",
+      "complexity": 0.261566162109375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 71,
+      "actual_ssim": 0.9004214593987124,
+      "reduction": 44.42291259765625
+    },
+    {
+      "image_id": "indoor_3",
+      "category": "indoor",
+      "complexity": 0.261566162109375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.9505806908726556,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "indoor_4",
+      "category": "indoor",
+      "complexity": 0.2625885009765625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.80371440797302,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_4",
+      "category": "indoor",
+      "complexity": 0.2625885009765625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 72,
+      "actual_ssim": 0.901876371756503,
+      "reduction": 43.64013671875
+    },
+    {
+      "image_id": "indoor_4",
+      "category": "indoor",
+      "complexity": 0.2625885009765625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 99,
+      "actual_ssim": 0.9511655653377812,
+      "reduction": 22.50518798828125
+    },
+    {
+      "image_id": "indoor_5",
+      "category": "indoor",
+      "complexity": 0.2619476318359375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.8036305157603619,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_5",
+      "category": "indoor",
+      "complexity": 0.2619476318359375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 72,
+      "actual_ssim": 0.9025075896993004,
+      "reduction": 43.64013671875
+    },
+    {
+      "image_id": "indoor_5",
+      "category": "indoor",
+      "complexity": 0.2619476318359375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 99,
+      "actual_ssim": 0.951114389066446,
+      "reduction": 22.50518798828125
+    },
+    {
+      "image_id": "indoor_6",
+      "category": "indoor",
+      "complexity": 0.2633056640625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 40,
+      "actual_ssim": 0.8005608851458222,
+      "reduction": 68.68896484375
+    },
+    {
+      "image_id": "indoor_6",
+      "category": "indoor",
+      "complexity": 0.2633056640625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 71,
+      "actual_ssim": 0.9004159446119914,
+      "reduction": 44.42291259765625
+    },
+    {
+      "image_id": "indoor_6",
+      "category": "indoor",
+      "complexity": 0.2633056640625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.950860623699908,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "indoor_7",
+      "category": "indoor",
+      "complexity": 0.2626953125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.8021861299025005,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_7",
+      "category": "indoor",
+      "complexity": 0.2626953125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 72,
+      "actual_ssim": 0.9012466819128032,
+      "reduction": 43.64013671875
+    },
+    {
+      "image_id": "indoor_7",
+      "category": "indoor",
+      "complexity": 0.2626953125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.9503058446062675,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "indoor_8",
+      "category": "indoor",
+      "complexity": 0.2611083984375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 41,
+      "actual_ssim": 0.8045305536049995,
+      "reduction": 67.90618896484375
+    },
+    {
+      "image_id": "indoor_8",
+      "category": "indoor",
+      "complexity": 0.2611083984375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 72,
+      "actual_ssim": 0.9021157227524904,
+      "reduction": 43.64013671875
+    },
+    {
+      "image_id": "indoor_8",
+      "category": "indoor",
+      "complexity": 0.2611083984375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 99,
+      "actual_ssim": 0.9512292203931906,
+      "reduction": 22.50518798828125
+    },
+    {
+      "image_id": "indoor_9",
+      "category": "indoor",
+      "complexity": 0.262725830078125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 40,
+      "actual_ssim": 0.8006200050366564,
+      "reduction": 68.68896484375
+    },
+    {
+      "image_id": "indoor_9",
+      "category": "indoor",
+      "complexity": 0.262725830078125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 71,
+      "actual_ssim": 0.9000233270330983,
+      "reduction": 44.42291259765625
+    },
+    {
+      "image_id": "indoor_9",
+      "category": "indoor",
+      "complexity": 0.262725830078125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 98,
+      "actual_ssim": 0.9508699055249856,
+      "reduction": 23.2879638671875
+    },
+    {
+      "image_id": "landscape_1",
+      "category": "landscape",
+      "complexity": 0.044036865234375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8019180281274841,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_1",
+      "category": "landscape",
+      "complexity": 0.044036865234375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.9009104858845371,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_1",
+      "category": "landscape",
+      "complexity": 0.044036865234375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.9504469978639544,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_10",
+      "category": "landscape",
+      "complexity": 0.0440216064453125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8052100000433128,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_10",
+      "category": "landscape",
+      "complexity": 0.0440216064453125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.9023607791227958,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_10",
+      "category": "landscape",
+      "complexity": 0.0440216064453125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.9508306343638973,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_11",
+      "category": "landscape",
+      "complexity": 0.042388916015625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8030140775104849,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_11",
+      "category": "landscape",
+      "complexity": 0.042388916015625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 29,
+      "actual_ssim": 0.9022851493994648,
+      "reduction": 77.29949951171875
+    },
+    {
+      "image_id": "landscape_11",
+      "category": "landscape",
+      "complexity": 0.042388916015625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 53,
+      "actual_ssim": 0.9508187626237192,
+      "reduction": 58.51287841796875
+    },
+    {
+      "image_id": "landscape_12",
+      "category": "landscape",
+      "complexity": 0.0431671142578125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.803361988202652,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_12",
+      "category": "landscape",
+      "complexity": 0.0431671142578125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.9001308653232626,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_12",
+      "category": "landscape",
+      "complexity": 0.0431671142578125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.95013030503361,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_13",
+      "category": "landscape",
+      "complexity": 0.044219970703125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.804921789670047,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_13",
+      "category": "landscape",
+      "complexity": 0.044219970703125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.9021349819031048,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_13",
+      "category": "landscape",
+      "complexity": 0.044219970703125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.9508923027056194,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_14",
+      "category": "landscape",
+      "complexity": 0.0437469482421875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8030825432982779,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_14",
+      "category": "landscape",
+      "complexity": 0.0437469482421875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.900027374933306,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_14",
+      "category": "landscape",
+      "complexity": 0.0437469482421875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 53,
+      "actual_ssim": 0.9510256376729412,
+      "reduction": 58.51287841796875
+    },
+    {
+      "image_id": "landscape_15",
+      "category": "landscape",
+      "complexity": 0.042999267578125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.807487146504199,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_15",
+      "category": "landscape",
+      "complexity": 0.042999267578125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 27,
+      "actual_ssim": 0.9013889872001598,
+      "reduction": 78.86505126953125
+    },
+    {
+      "image_id": "landscape_15",
+      "category": "landscape",
+      "complexity": 0.042999267578125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.9514247590932192,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_2",
+      "category": "landscape",
+      "complexity": 0.0429534912109375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.805261174280877,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_2",
+      "category": "landscape",
+      "complexity": 0.0429534912109375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.902533093677491,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_2",
+      "category": "landscape",
+      "complexity": 0.0429534912109375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.951219878497704,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_3",
+      "category": "landscape",
+      "complexity": 0.0424346923828125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8045197310382096,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_3",
+      "category": "landscape",
+      "complexity": 0.0424346923828125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.9014536817780292,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_3",
+      "category": "landscape",
+      "complexity": 0.0424346923828125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.9501639334448142,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_4",
+      "category": "landscape",
+      "complexity": 0.0433502197265625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8060945943936463,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_4",
+      "category": "landscape",
+      "complexity": 0.0433502197265625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.9025489424330708,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_4",
+      "category": "landscape",
+      "complexity": 0.0433502197265625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.9504937864401964,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_5",
+      "category": "landscape",
+      "complexity": 0.0431976318359375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8030613136482697,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_5",
+      "category": "landscape",
+      "complexity": 0.0431976318359375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.9006682802794487,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_5",
+      "category": "landscape",
+      "complexity": 0.0431976318359375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.950358351519013,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_6",
+      "category": "landscape",
+      "complexity": 0.042083740234375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8061638190342101,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_6",
+      "category": "landscape",
+      "complexity": 0.042083740234375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 27,
+      "actual_ssim": 0.9001263383687276,
+      "reduction": 78.86505126953125
+    },
+    {
+      "image_id": "landscape_6",
+      "category": "landscape",
+      "complexity": 0.042083740234375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.9505597728716608,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_7",
+      "category": "landscape",
+      "complexity": 0.0439300537109375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8026013943251215,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_7",
+      "category": "landscape",
+      "complexity": 0.0439300537109375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.900195315069742,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_7",
+      "category": "landscape",
+      "complexity": 0.0439300537109375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.9501175794268968,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "landscape_8",
+      "category": "landscape",
+      "complexity": 0.0430450439453125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8039278659255237,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_8",
+      "category": "landscape",
+      "complexity": 0.0430450439453125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.901640154988966,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_8",
+      "category": "landscape",
+      "complexity": 0.0430450439453125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 51,
+      "actual_ssim": 0.9500171362033172,
+      "reduction": 60.07843017578125
+    },
+    {
+      "image_id": "landscape_9",
+      "category": "landscape",
+      "complexity": 0.043121337890625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 5,
+      "actual_ssim": 0.8067188399055012,
+      "reduction": 96.08612060546876
+    },
+    {
+      "image_id": "landscape_9",
+      "category": "landscape",
+      "complexity": 0.043121337890625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 28,
+      "actual_ssim": 0.9026717621418876,
+      "reduction": 78.082275390625
+    },
+    {
+      "image_id": "landscape_9",
+      "category": "landscape",
+      "complexity": 0.043121337890625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 52,
+      "actual_ssim": 0.9506801727513228,
+      "reduction": 59.295654296875
+    },
+    {
+      "image_id": "object_1",
+      "category": "object",
+      "complexity": 0.20550537109375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8021115625500074,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_1",
+      "category": "object",
+      "complexity": 0.20550537109375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9008749443985534,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_1",
+      "category": "object",
+      "complexity": 0.20550537109375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9504430453971676,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "object_10",
+      "category": "object",
+      "complexity": 0.2042999267578125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8034192572808113,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_10",
+      "category": "object",
+      "complexity": 0.2042999267578125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9004474572192179,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_10",
+      "category": "object",
+      "complexity": 0.2042999267578125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9507433839726044,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "object_11",
+      "category": "object",
+      "complexity": 0.2040557861328125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 35,
+      "actual_ssim": 0.8003045219491334,
+      "reduction": 72.60284423828125
+    },
+    {
+      "image_id": "object_11",
+      "category": "object",
+      "complexity": 0.2040557861328125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.901469999427206,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_11",
+      "category": "object",
+      "complexity": 0.2040557861328125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9512107668713052,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "object_12",
+      "category": "object",
+      "complexity": 0.2029571533203125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8047532013107365,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_12",
+      "category": "object",
+      "complexity": 0.2029571533203125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9009152160777024,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_12",
+      "category": "object",
+      "complexity": 0.2029571533203125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9506268898133596,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "object_13",
+      "category": "object",
+      "complexity": 0.2039642333984375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8040201432065309,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_13",
+      "category": "object",
+      "complexity": 0.2039642333984375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9013161340409076,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_13",
+      "category": "object",
+      "complexity": 0.2039642333984375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9512456599503274,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "object_14",
+      "category": "object",
+      "complexity": 0.2036895751953125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8049869384459436,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_14",
+      "category": "object",
+      "complexity": 0.2036895751953125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9008797936231968,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_14",
+      "category": "object",
+      "complexity": 0.2036895751953125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9514827749374448,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "object_15",
+      "category": "object",
+      "complexity": 0.20318603515625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8047511164647201,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_15",
+      "category": "object",
+      "complexity": 0.20318603515625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9015265498796328,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_15",
+      "category": "object",
+      "complexity": 0.20318603515625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9514224347848416,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "object_2",
+      "category": "object",
+      "complexity": 0.2036590576171875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.80565308116399,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_2",
+      "category": "object",
+      "complexity": 0.2036590576171875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9014825469084512,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_2",
+      "category": "object",
+      "complexity": 0.2036590576171875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9508981535492108,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "object_3",
+      "category": "object",
+      "complexity": 0.2025299072265625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8053063295330926,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_3",
+      "category": "object",
+      "complexity": 0.2025299072265625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9022471679339752,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_3",
+      "category": "object",
+      "complexity": 0.2025299072265625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 86,
+      "actual_ssim": 0.9503190181584052,
+      "reduction": 32.6812744140625
+    },
+    {
+      "image_id": "object_4",
+      "category": "object",
+      "complexity": 0.203369140625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8025175743014064,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_4",
+      "category": "object",
+      "complexity": 0.203369140625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9009321914393948,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_4",
+      "category": "object",
+      "complexity": 0.203369140625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 88,
+      "actual_ssim": 0.9512238592411508,
+      "reduction": 31.11572265625
+    },
+    {
+      "image_id": "object_5",
+      "category": "object",
+      "complexity": 0.205108642578125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8045434723445594,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_5",
+      "category": "object",
+      "complexity": 0.205108642578125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.900350319033719,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_5",
+      "category": "object",
+      "complexity": 0.205108642578125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 88,
+      "actual_ssim": 0.9507341193606176,
+      "reduction": 31.11572265625
+    },
+    {
+      "image_id": "object_6",
+      "category": "object",
+      "complexity": 0.2019500732421875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 35,
+      "actual_ssim": 0.8002503319583617,
+      "reduction": 72.60284423828125
+    },
+    {
+      "image_id": "object_6",
+      "category": "object",
+      "complexity": 0.2019500732421875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.90152115075175,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_6",
+      "category": "object",
+      "complexity": 0.2019500732421875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 86,
+      "actual_ssim": 0.950413831581718,
+      "reduction": 32.6812744140625
+    },
+    {
+      "image_id": "object_7",
+      "category": "object",
+      "complexity": 0.2057647705078125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8049211612539665,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_7",
+      "category": "object",
+      "complexity": 0.2057647705078125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9016179943902476,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_7",
+      "category": "object",
+      "complexity": 0.2057647705078125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9509649318600212,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "object_8",
+      "category": "object",
+      "complexity": 0.20330810546875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8036065985314454,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_8",
+      "category": "object",
+      "complexity": 0.20330810546875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9021321741617888,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_8",
+      "category": "object",
+      "complexity": 0.20330810546875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9508999625301248,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "object_9",
+      "category": "object",
+      "complexity": 0.205108642578125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8034159851678737,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "object_9",
+      "category": "object",
+      "complexity": 0.205108642578125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.901183874123317,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "object_9",
+      "category": "object",
+      "complexity": 0.205108642578125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 87,
+      "actual_ssim": 0.9501077547109028,
+      "reduction": 31.89849853515625
+    },
+    {
+      "image_id": "portrait_1",
+      "category": "portrait",
+      "complexity": 0.371429443359375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8035537926770336,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_1",
+      "category": "portrait",
+      "complexity": 0.371429443359375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 60,
+      "actual_ssim": 0.9018204467765978,
+      "reduction": 53.033447265625
+    },
+    {
+      "image_id": "portrait_1",
+      "category": "portrait",
+      "complexity": 0.371429443359375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9505352612289204,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_10",
+      "category": "portrait",
+      "complexity": 0.373016357421875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8044510666263486,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_10",
+      "category": "portrait",
+      "complexity": 0.373016357421875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9009723536962294,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "portrait_10",
+      "category": "portrait",
+      "complexity": 0.373016357421875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.9513397507217493,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "portrait_11",
+      "category": "portrait",
+      "complexity": 0.372833251953125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8034068658513509,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_11",
+      "category": "portrait",
+      "complexity": 0.372833251953125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.900039521455478,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "portrait_11",
+      "category": "portrait",
+      "complexity": 0.372833251953125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.950801780991737,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_12",
+      "category": "portrait",
+      "complexity": 0.3723297119140625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.803558910373383,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_12",
+      "category": "portrait",
+      "complexity": 0.3723297119140625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 60,
+      "actual_ssim": 0.9027035685891852,
+      "reduction": 53.033447265625
+    },
+    {
+      "image_id": "portrait_12",
+      "category": "portrait",
+      "complexity": 0.3723297119140625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.9512532121927372,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "portrait_13",
+      "category": "portrait",
+      "complexity": 0.373077392578125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8030484441893684,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_13",
+      "category": "portrait",
+      "complexity": 0.373077392578125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9005221270950537,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "portrait_13",
+      "category": "portrait",
+      "complexity": 0.373077392578125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9510115721238876,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_14",
+      "category": "portrait",
+      "complexity": 0.3724212646484375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8029579895328295,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_14",
+      "category": "portrait",
+      "complexity": 0.3724212646484375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 60,
+      "actual_ssim": 0.9018205554648784,
+      "reduction": 53.033447265625
+    },
+    {
+      "image_id": "portrait_14",
+      "category": "portrait",
+      "complexity": 0.3724212646484375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.950719674571034,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_15",
+      "category": "portrait",
+      "complexity": 0.3724365234375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8035683430952602,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_15",
+      "category": "portrait",
+      "complexity": 0.3724365234375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9003819244608314,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "portrait_15",
+      "category": "portrait",
+      "complexity": 0.3724365234375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9507329934174898,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_2",
+      "category": "portrait",
+      "complexity": 0.3731689453125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.801564608648807,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_2",
+      "category": "portrait",
+      "complexity": 0.3731689453125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 60,
+      "actual_ssim": 0.9025405239810548,
+      "reduction": 53.033447265625
+    },
+    {
+      "image_id": "portrait_2",
+      "category": "portrait",
+      "complexity": 0.3731689453125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9503633321561572,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_3",
+      "category": "portrait",
+      "complexity": 0.37322998046875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8038110853557372,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_3",
+      "category": "portrait",
+      "complexity": 0.37322998046875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9002171801613903,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "portrait_3",
+      "category": "portrait",
+      "complexity": 0.37322998046875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9505367857178628,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_4",
+      "category": "portrait",
+      "complexity": 0.371490478515625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.803189716878007,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_4",
+      "category": "portrait",
+      "complexity": 0.371490478515625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9001026352239595,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "portrait_4",
+      "category": "portrait",
+      "complexity": 0.371490478515625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9507319331953308,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_5",
+      "category": "portrait",
+      "complexity": 0.3733062744140625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8032859511763872,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_5",
+      "category": "portrait",
+      "complexity": 0.3733062744140625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9001945619610477,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "portrait_5",
+      "category": "portrait",
+      "complexity": 0.3733062744140625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9509310811876428,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_6",
+      "category": "portrait",
+      "complexity": 0.37322998046875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8044195262202537,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_6",
+      "category": "portrait",
+      "complexity": 0.37322998046875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9002991521720434,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "portrait_6",
+      "category": "portrait",
+      "complexity": 0.37322998046875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9503683405980418,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_7",
+      "category": "portrait",
+      "complexity": 0.372406005859375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8035459649393853,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_7",
+      "category": "portrait",
+      "complexity": 0.372406005859375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9003449070462874,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "portrait_7",
+      "category": "portrait",
+      "complexity": 0.372406005859375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9502609364792844,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_8",
+      "category": "portrait",
+      "complexity": 0.3735809326171875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8025115025211232,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_8",
+      "category": "portrait",
+      "complexity": 0.3735809326171875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 59,
+      "actual_ssim": 0.9000954524665626,
+      "reduction": 53.81622314453125
+    },
+    {
+      "image_id": "portrait_8",
+      "category": "portrait",
+      "complexity": 0.3735809326171875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 83,
+      "actual_ssim": 0.9509188378803624,
+      "reduction": 35.02960205078125
+    },
+    {
+      "image_id": "portrait_9",
+      "category": "portrait",
+      "complexity": 0.3727569580078125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 36,
+      "actual_ssim": 0.8034288999058878,
+      "reduction": 71.820068359375
+    },
+    {
+      "image_id": "portrait_9",
+      "category": "portrait",
+      "complexity": 0.3727569580078125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 60,
+      "actual_ssim": 0.902296113717692,
+      "reduction": 53.033447265625
+    },
+    {
+      "image_id": "portrait_9",
+      "category": "portrait",
+      "complexity": 0.3727569580078125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 84,
+      "actual_ssim": 0.9512596162237904,
+      "reduction": 34.246826171875
+    },
+    {
+      "image_id": "sports_1",
+      "category": "sports",
+      "complexity": 0.1236419677734375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8058987384275671,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_1",
+      "category": "sports",
+      "complexity": 0.1236419677734375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9022198569188612,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "sports_1",
+      "category": "sports",
+      "complexity": 0.1236419677734375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 60,
+      "actual_ssim": 0.9501125374091246,
+      "reduction": 53.033447265625
+    },
+    {
+      "image_id": "sports_10",
+      "category": "sports",
+      "complexity": 0.123809814453125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8057448658949221,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_10",
+      "category": "sports",
+      "complexity": 0.123809814453125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9007433603474312,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "sports_10",
+      "category": "sports",
+      "complexity": 0.123809814453125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 61,
+      "actual_ssim": 0.9502502931711926,
+      "reduction": 52.25067138671875
+    },
+    {
+      "image_id": "sports_11",
+      "category": "sports",
+      "complexity": 0.121002197265625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8077683369978043,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_11",
+      "category": "sports",
+      "complexity": 0.121002197265625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 31,
+      "actual_ssim": 0.9001606198605737,
+      "reduction": 75.73394775390625
+    },
+    {
+      "image_id": "sports_11",
+      "category": "sports",
+      "complexity": 0.121002197265625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 60,
+      "actual_ssim": 0.950143671615415,
+      "reduction": 53.033447265625
+    },
+    {
+      "image_id": "sports_12",
+      "category": "sports",
+      "complexity": 0.1219635009765625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8069179082963324,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_12",
+      "category": "sports",
+      "complexity": 0.1219635009765625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9014563384492976,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "sports_12",
+      "category": "sports",
+      "complexity": 0.1219635009765625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 60,
+      "actual_ssim": 0.9502033294339342,
+      "reduction": 53.033447265625
+    },
+    {
+      "image_id": "sports_13",
+      "category": "sports",
+      "complexity": 0.122314453125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8048842368050023,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_13",
+      "category": "sports",
+      "complexity": 0.122314453125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 33,
+      "actual_ssim": 0.9020656130718816,
+      "reduction": 74.16839599609375
+    },
+    {
+      "image_id": "sports_13",
+      "category": "sports",
+      "complexity": 0.122314453125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 61,
+      "actual_ssim": 0.950010430923275,
+      "reduction": 52.25067138671875
+    },
+    {
+      "image_id": "sports_14",
+      "category": "sports",
+      "complexity": 0.122406005859375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8059837084685585,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_14",
+      "category": "sports",
+      "complexity": 0.122406005859375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9009980594387478,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "sports_14",
+      "category": "sports",
+      "complexity": 0.122406005859375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 61,
+      "actual_ssim": 0.9504533153192236,
+      "reduction": 52.25067138671875
+    },
+    {
+      "image_id": "sports_15",
+      "category": "sports",
+      "complexity": 0.1220245361328125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.807933412073656,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_15",
+      "category": "sports",
+      "complexity": 0.1220245361328125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9016941351508166,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "sports_15",
+      "category": "sports",
+      "complexity": 0.1220245361328125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 61,
+      "actual_ssim": 0.9510644238050484,
+      "reduction": 52.25067138671875
+    },
+    {
+      "image_id": "sports_2",
+      "category": "sports",
+      "complexity": 0.1218719482421875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8034731623628174,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_2",
+      "category": "sports",
+      "complexity": 0.1218719482421875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 33,
+      "actual_ssim": 0.9017802638532774,
+      "reduction": 74.16839599609375
+    },
+    {
+      "image_id": "sports_2",
+      "category": "sports",
+      "complexity": 0.1218719482421875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9505042831589988,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "sports_3",
+      "category": "sports",
+      "complexity": 0.1224517822265625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8061314259665123,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_3",
+      "category": "sports",
+      "complexity": 0.1224517822265625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.900956292377752,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "sports_3",
+      "category": "sports",
+      "complexity": 0.1224517822265625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 61,
+      "actual_ssim": 0.950058901491499,
+      "reduction": 52.25067138671875
+    },
+    {
+      "image_id": "sports_4",
+      "category": "sports",
+      "complexity": 0.1221771240234375,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8066030441043885,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_4",
+      "category": "sports",
+      "complexity": 0.1221771240234375,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9003769824216435,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "sports_4",
+      "category": "sports",
+      "complexity": 0.1221771240234375,
+      "target_ssim": 0.95,
+      "adaptive_rank": 61,
+      "actual_ssim": 0.9502214100840456,
+      "reduction": 52.25067138671875
+    },
+    {
+      "image_id": "sports_5",
+      "category": "sports",
+      "complexity": 0.121002197265625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8051654866836598,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_5",
+      "category": "sports",
+      "complexity": 0.121002197265625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9001511315334981,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "sports_5",
+      "category": "sports",
+      "complexity": 0.121002197265625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 61,
+      "actual_ssim": 0.950032024876426,
+      "reduction": 52.25067138671875
+    },
+    {
+      "image_id": "sports_6",
+      "category": "sports",
+      "complexity": 0.1217041015625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8037797146959144,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_6",
+      "category": "sports",
+      "complexity": 0.1217041015625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 33,
+      "actual_ssim": 0.9018807906170188,
+      "reduction": 74.16839599609375
+    },
+    {
+      "image_id": "sports_6",
+      "category": "sports",
+      "complexity": 0.1217041015625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 61,
+      "actual_ssim": 0.9501237784893178,
+      "reduction": 52.25067138671875
+    },
+    {
+      "image_id": "sports_7",
+      "category": "sports",
+      "complexity": 0.121002197265625,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8026741152729383,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_7",
+      "category": "sports",
+      "complexity": 0.121002197265625,
+      "target_ssim": 0.9,
+      "adaptive_rank": 33,
+      "actual_ssim": 0.9005087654423276,
+      "reduction": 74.16839599609375
+    },
+    {
+      "image_id": "sports_7",
+      "category": "sports",
+      "complexity": 0.121002197265625,
+      "target_ssim": 0.95,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.950161650194679,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "sports_8",
+      "category": "sports",
+      "complexity": 0.1223602294921875,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8045627484252259,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_8",
+      "category": "sports",
+      "complexity": 0.1223602294921875,
+      "target_ssim": 0.9,
+      "adaptive_rank": 33,
+      "actual_ssim": 0.9012693298819996,
+      "reduction": 74.16839599609375
+    },
+    {
+      "image_id": "sports_8",
+      "category": "sports",
+      "complexity": 0.1223602294921875,
+      "target_ssim": 0.95,
+      "adaptive_rank": 62,
+      "actual_ssim": 0.9508553276899504,
+      "reduction": 51.4678955078125
+    },
+    {
+      "image_id": "sports_9",
+      "category": "sports",
+      "complexity": 0.12091064453125,
+      "target_ssim": 0.8,
+      "adaptive_rank": 8,
+      "actual_ssim": 0.8069226365094634,
+      "reduction": 93.73779296875
+    },
+    {
+      "image_id": "sports_9",
+      "category": "sports",
+      "complexity": 0.12091064453125,
+      "target_ssim": 0.9,
+      "adaptive_rank": 32,
+      "actual_ssim": 0.9012477171695504,
+      "reduction": 74.951171875
+    },
+    {
+      "image_id": "sports_9",
+      "category": "sports",
+      "complexity": 0.12091064453125,
+      "target_ssim": 0.95,
+      "adaptive_rank": 61,
+      "actual_ssim": 0.9509234622765748,
+      "reduction": 52.25067138671875
+    }
+  ],
+  "cat_summary": [
+    {
+      "category": "animal",
+      "num_images": 15,
+      "avg_complexity": 0.3051503499348958,
+      "median_complexity": 0.29864501953125,
+      "mean_rank": 45.46666666666667,
+      "median_rank": 43.0,
+      "mean_reduction": 64.4097900390625
+    },
+    {
+      "category": "architecture",
+      "num_images": 15,
+      "avg_complexity": 0.3401387532552083,
+      "median_complexity": 0.340118408203125,
+      "mean_rank": 31.6,
+      "median_rank": 32.0,
+      "mean_reduction": 75.2642822265625
+    },
+    {
+      "category": "document",
+      "num_images": 15,
+      "avg_complexity": 0.2987508138020833,
+      "median_complexity": 0.298675537109375,
+      "mean_rank": 58.4,
+      "median_rank": 58.0,
+      "mean_reduction": 54.285888671875
+    },
+    {
+      "category": "indoor",
+      "num_images": 15,
+      "avg_complexity": 0.26236572265625,
+      "median_complexity": 0.2625885009765625,
+      "mean_rank": 71.6,
+      "median_rank": 72.0,
+      "mean_reduction": 43.9532470703125
+    },
+    {
+      "category": "landscape",
+      "num_images": 15,
+      "avg_complexity": 0.0432464599609375,
+      "median_complexity": 0.0431671142578125,
+      "mean_rank": 27.933333333333334,
+      "median_rank": 28.0,
+      "mean_reduction": 78.13446044921875
+    },
+    {
+      "category": "object",
+      "num_images": 15,
+      "avg_complexity": 0.2038970947265625,
+      "median_complexity": 0.2036895751953125,
+      "mean_rank": 62.0,
+      "median_rank": 62.0,
+      "mean_reduction": 51.4678955078125
+    },
+    {
+      "category": "portrait",
+      "num_images": 15,
+      "avg_complexity": 0.3727142333984375,
+      "median_complexity": 0.372833251953125,
+      "mean_rank": 59.333333333333336,
+      "median_rank": 59.0,
+      "mean_reduction": 53.5552978515625
+    },
+    {
+      "category": "sports",
+      "num_images": 15,
+      "avg_complexity": 0.1220428466796875,
+      "median_complexity": 0.1220245361328125,
+      "mean_rank": 32.266666666666666,
+      "median_rank": 32.0,
+      "mean_reduction": 74.742431640625
+    }
+  ],
+  "stats": {
+    "adaptive_mean_rank": 48.6,
+    "baseline_rank": 75,
+    "adaptive_reduction": 62.0,
+    "baseline_reduction": 41.3,
+    "excess_components": 26.4,
+    "over_retained_percent": 100.0,
+    "pearson_r": 0.475
+  }
+}
