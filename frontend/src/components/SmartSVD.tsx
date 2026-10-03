@@ -368,7 +368,11 @@ export default function SmartSVD() {
             {targetSsim.toFixed(2)}
           </div>
           <button 
-            onClick={() => handleAdaptive(imageId!, targetSsim)}
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              handleAdaptive(imageId!, targetSsim);
+            }}
             disabled={!imageId || isAdaptiveLoading}
             className="w-full bg-indigo-600 hover:bg-indigo-700 disabled:bg-slate-700 text-white font-bold py-4 rounded-xl transition shadow-lg"
           >
@@ -395,55 +399,6 @@ export default function SmartSVD() {
         )}
       </div>
       
-      {/* ADAPTIVE PROCESS */}
-      {adaptiveRank && (
-        <div className="mt-16 bg-slate-950 border border-slate-800 rounded-3xl p-8 max-w-5xl mx-auto relative z-10 flex flex-col md:flex-row gap-12 items-center">
-          <div className="flex-1 space-y-6">
-            <h3 className="font-bold text-xl text-white mb-6">How it found rank {adaptiveRank}</h3>
-            
-            <div className="space-y-4 font-mono text-sm">
-              <div className="flex items-center gap-4 text-slate-500">
-                <div className="w-24">Target:</div>
-                <div className="bg-slate-800 px-2 py-1 rounded">SSIM ≥ {targetSsim.toFixed(2)}</div>
-              </div>
-              <div className="w-px h-6 bg-slate-800 ml-[4.5rem]"></div>
-              
-              <div className="flex items-center gap-4 text-rose-400">
-                <div className="w-24">Try k = 5</div>
-                <div>SSIM = 0.62 ✗</div>
-              </div>
-              <div className="w-px h-6 bg-slate-800 ml-[4.5rem]"></div>
-              
-              <div className="flex items-center gap-4 text-rose-400">
-                <div className="w-24">Try k = {Math.floor(adaptiveRank/2)}</div>
-                <div>SSIM = {(targetSsim - 0.15).toFixed(2)} ✗</div>
-              </div>
-              <div className="w-px h-6 bg-slate-800 ml-[4.5rem]"></div>
-              
-              <div className="flex items-center gap-4 text-emerald-400 font-bold bg-emerald-900/20 p-3 rounded-xl border border-emerald-900/50">
-                <div className="w-24">Try k = {adaptiveRank}</div>
-                <div>SSIM = {adaptiveMetrics?.ssim?.toFixed(3)} ✓ TARGET REACHED</div>
-              </div>
-              <div className="w-px h-6 bg-slate-800 ml-[4.5rem]"></div>
-              
-              <div className="flex items-center gap-4 text-white">
-                <div className="w-24">STOP</div>
-                <div className="bg-indigo-600 px-3 py-1 rounded font-bold">Rank: {adaptiveRank}</div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="flex-1 w-full">
-             <div className="aspect-square bg-black rounded-2xl overflow-hidden border border-slate-700 p-2">
-                {isAdaptiveLoading ? (
-                  <div className="w-full h-full flex items-center justify-center"><Activity className="w-8 h-8 text-indigo-500 animate-spin"/></div>
-                ) : (
-                  <img src={adaptiveImage!} className="w-full h-full object-contain" />
-                )}
-             </div>
-          </div>
-        </div>
-      )}
     </section>
   );
 
