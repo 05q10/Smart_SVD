@@ -371,10 +371,14 @@ export default function SmartSVD() {
             type="button"
             onClick={(e) => {
               e.preventDefault();
+              if (!imageId || isAdaptiveLoading) return;
               handleAdaptive(imageId!, targetSsim);
             }}
-            disabled={!imageId || isAdaptiveLoading}
-            className="w-full bg-indigo-600 hover:bg-indigo-700 disabled:bg-slate-700 text-white font-bold py-4 rounded-xl transition shadow-lg"
+            className={`w-full text-white font-bold py-4 rounded-xl transition shadow-lg ${
+              (!imageId || isAdaptiveLoading) 
+                ? 'bg-slate-700 cursor-not-allowed opacity-75' 
+                : 'bg-indigo-600 hover:bg-indigo-700'
+            }`}
           >
             {isAdaptiveLoading ? "Running Adaptive SVD..." : "Run Adaptive SVD"}
           </button>
