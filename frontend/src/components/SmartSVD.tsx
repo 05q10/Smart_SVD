@@ -45,10 +45,7 @@ export default function SmartSVD() {
   const [isAdaptiveLoading, setIsAdaptiveLoading] = useState(false);
 
   // UPLOAD
-  const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
-
+  const processFile = async (file: File) => {
     const formData = new FormData();
     formData.append("file", file);
 
@@ -71,8 +68,25 @@ export default function SmartSVD() {
       generateExtremeCases(data.image_id, data.max_rank);
       handleAdaptive(data.image_id, 0.90);
       
+      scrollTo('lab');
     } catch (err) {
       alert("Failed to upload image. Ensure FastAPI backend is running.");
+    }
+  };
+
+  const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file) processFile(file);
+  };
+
+  const loadSample = async (filename: string) => {
+    try {
+      const res = await fetch(`/samples/${filename}`);
+      const blob = await res.blob();
+      const file = new File([blob], filename, { type: blob.type });
+      processFile(file);
+    } catch(err) {
+      alert("Failed to load sample image.");
     }
   };
 
@@ -170,13 +184,23 @@ export default function SmartSVD() {
       <p className="text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto font-medium">
         Explore Singular Value Decomposition and discover how adaptive rank selection can reduce representation size while preserving a target level of image quality.
       </p>
-      <div className="flex justify-center gap-4 pt-4">
-        <button onClick={()=>scrollTo('lab')} className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3.5 rounded-xl font-medium shadow-sm transition">
-          Try the experiment
-        </button>
-        <button onClick={()=>scrollTo('svd-explain')} className="bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 px-6 py-3.5 rounded-xl font-medium shadow-sm transition">
-          How SVD works
-        </button>
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
+        <label className="cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3.5 rounded-xl font-bold shadow-sm transition flex items-center gap-2">
+          <Upload className="w-5 h-5"/> Upload Your Image
+          <input type="file" className="hidden" accept="image/*" onChange={handleFileUpload} />
+        </label>
+        
+        <div className="relative group">
+          <button className="bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 px-6 py-3.5 rounded-xl font-bold shadow-sm transition flex items-center gap-2">
+             <ImageIcon className="w-5 h-5"/> Try a Sample <ChevronRight className="w-4 h-4 rotate-90"/>
+          </button>
+          <div className="absolute top-full left-0 w-full mt-2 bg-white border border-slate-200 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all flex flex-col overflow-hidden z-50">
+            <button onClick={() => loadSample('architecture_1.jpg')} className="px-4 py-3 text-left text-sm font-bold text-slate-700 hover:bg-slate-50 border-b border-slate-100">Architecture (Complex)</button>
+            <button onClick={() => loadSample('document_2.jpg')} className="px-4 py-3 text-left text-sm font-bold text-slate-700 hover:bg-slate-50 border-b border-slate-100">Document (High Freq)</button>
+            <button onClick={() => loadSample('portrait_3.jpg')} className="px-4 py-3 text-left text-sm font-bold text-slate-700 hover:bg-slate-50 border-b border-slate-100">Portrait (Simple)</button>
+            <button onClick={() => loadSample('landscape_4.jpg')} className="px-4 py-3 text-left text-sm font-bold text-slate-700 hover:bg-slate-50">Landscape (Medium)</button>
+          </div>
+        </div>
       </div>
     </section>
   );
@@ -326,30 +350,49 @@ export default function SmartSVD() {
         <p className="text-lg text-slate-300">Tell us how much quality you need. We mathematically find the absolute smallest rank that gets you there.</p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10 max-w-5xl mx-auto">
-        {[
-          { title: "MAX COMPRESSION", ssim: 0.80, icon: <Zap className="w-6 h-6 mb-4 text-amber-400"/>, desc: "Maximum representation reduction. Lower quality." },
-          { title: "BALANCED", ssim: 0.90, icon: <Activity className="w-6 h-6 mb-4 text-emerald-400"/>, desc: "The perfect middle ground for general imagery." },
-          { title: "HIGH FIDELITY", ssim: 0.95, icon: <Eye className="w-6 h-6 mb-4 text-indigo-400"/>, desc: "Preserves fine visual structures and details." }
-        ].map(mode => (
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10 max-w-5xl mx-auto">
+        <div className="bg-slate-800 p-8 rounded-3xl border border-slate-700">
+          <h3 className="text-xl font-bold text-white mb-4">Set Quality Target (SSIM)</h3>
+          <p className="text-slate-400 text-sm mb-8">Move the slider to specify the minimum structural similarity you require.</p>
+          
+          <div className="flex justify-between text-xs font-bold text-slate-500 mb-2 uppercase tracking-widest">
+            <span>Low (0.50)</span>
+            <span>Perfect (0.99)</span>
+          </div>
+          <input 
+            type="range" min="0.50" max="0.99" step="0.01" value={targetSsim}
+            onChange={(e) => setTargetSsim(parseFloat(e.target.value))}
+            className="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-indigo-500 mb-6"
+          />
+          <div className="text-center font-mono text-3xl font-black text-indigo-400 mb-8">
+            {targetSsim.toFixed(2)}
+          </div>
           <button 
-            key={mode.ssim} onClick={() => handleAdaptive(imageId!, mode.ssim)}
-            className={`text-left p-8 rounded-3xl transition-all border-2 flex flex-col ${targetSsim === mode.ssim ? 'bg-slate-800 border-indigo-500 shadow-[0_0_30px_rgba(99,102,241,0.2)]' : 'bg-slate-800/50 border-slate-700 hover:bg-slate-800 hover:border-slate-600'}`}
+            onClick={() => handleAdaptive(imageId!, targetSsim)}
+            disabled={!imageId || isAdaptiveLoading}
+            className="w-full bg-indigo-600 hover:bg-indigo-700 disabled:bg-slate-700 text-white font-bold py-4 rounded-xl transition shadow-lg"
           >
-            {mode.icon}
-            <h4 className="font-bold text-lg text-white mb-2">{mode.title}</h4>
-            <div className="font-mono text-sm bg-black/30 px-3 py-1.5 rounded-lg border border-slate-700 text-slate-300 mb-4 inline-block w-fit">Target SSIM ≥ {mode.ssim.toFixed(2)}</div>
-            <p className="text-sm text-slate-400 leading-relaxed mb-6 flex-1">{mode.desc}</p>
-            
-            {targetSsim === mode.ssim && adaptiveRank && (
-              <div className="bg-indigo-500/10 border border-indigo-500/20 p-4 rounded-xl mt-auto">
-                <div className="text-xs font-bold text-indigo-300 uppercase tracking-wider mb-1">Recommended Rank</div>
-                <div className="text-2xl font-black text-white">{adaptiveRank}</div>
-                <div className="text-xs text-indigo-200/70 mt-1">{adaptiveStorage?.storage_reduction_percent?.toFixed(1)}% size reduction</div>
-              </div>
-            )}
+            {isAdaptiveLoading ? "Running Adaptive SVD..." : "Run Adaptive SVD"}
           </button>
-        ))}
+        </div>
+        
+        {adaptiveRank ? (
+          <div className="bg-indigo-900/40 p-8 rounded-3xl border border-indigo-500/30 flex flex-col justify-center text-center">
+            <div className="text-indigo-300 font-bold tracking-widest uppercase text-sm mb-2">Optimal Rank Found</div>
+            <div className="text-7xl font-black text-white mb-4">{adaptiveRank}</div>
+            <div className="text-indigo-200">
+              Achieved SSIM: <strong>{adaptiveMetrics?.ssim?.toFixed(3)}</strong>
+            </div>
+            <div className="text-emerald-400 font-bold mt-4">
+              {adaptiveStorage?.storage_reduction_percent?.toFixed(1)}% Smaller Representation
+            </div>
+          </div>
+        ) : (
+          <div className="bg-slate-800/50 p-8 rounded-3xl border border-slate-700 border-dashed flex flex-col justify-center items-center text-center text-slate-500">
+             <Activity className="w-12 h-12 mb-4 opacity-20" />
+             <p>Upload an image and run Adaptive SVD to see results.</p>
+          </div>
+        )}
       </div>
       
       {/* ADAPTIVE PROCESS */}
@@ -406,40 +449,45 @@ export default function SmartSVD() {
 
   const WhyNotHighRank = () => {
     if (!adaptiveRank) return null;
-    const fixedRank = 80;
+    const fixedRank = 75; // Our robust baseline from the experiment
     const isWasting = fixedRank > adaptiveRank;
     
     return (
       <section className="max-w-5xl mx-auto py-16 space-y-10 border-b border-slate-200">
-        <h2 className="text-3xl font-bold text-slate-900 text-center">Why stop at the adaptive rank?</h2>
+        <h2 className="text-3xl font-bold text-slate-900 text-center">Why fixed ranks waste space</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-indigo-50 border-2 border-indigo-200 rounded-3xl p-8 space-y-6 relative overflow-hidden">
-            <div className="absolute top-0 right-0 bg-indigo-600 text-white text-xs font-bold px-4 py-1 rounded-bl-xl">OUR SOLUTION</div>
+          <div className="bg-indigo-50 border-2 border-indigo-200 rounded-3xl p-8 space-y-6 relative overflow-hidden shadow-sm">
+            <div className="absolute top-0 right-0 bg-indigo-600 text-white text-xs font-bold px-4 py-1 rounded-bl-xl">OUR ADAPTIVE SVD</div>
             <h3 className="font-black text-2xl text-indigo-900">Adaptive Rank</h3>
+            <p className="text-sm text-indigo-700">Calculated specifically for this image to hit SSIM = {targetSsim.toFixed(2)}.</p>
             
             <div className="space-y-4">
-              <div className="flex justify-between items-end border-b border-indigo-100 pb-2"><span className="text-slate-600 font-medium">Rank</span><span className="font-bold text-xl text-indigo-700">{adaptiveRank}</span></div>
-              <div className="flex justify-between items-end border-b border-indigo-100 pb-2"><span className="text-slate-600 font-medium">SSIM</span><span className="font-bold text-emerald-600">{adaptiveMetrics?.ssim?.toFixed(3)}</span></div>
-              <div className="flex justify-between items-end border-b border-indigo-100 pb-2"><span className="text-slate-600 font-medium">Components Retained</span><span className="font-bold text-slate-800">{((adaptiveRank/maxRank)*100).toFixed(1)}%</span></div>
+              <div className="flex justify-between items-end border-b border-indigo-100 pb-2"><span className="text-slate-600 font-medium">Rank Used</span><span className="font-bold text-3xl text-indigo-700">{adaptiveRank}</span></div>
+              <div className="flex justify-between items-end border-b border-indigo-100 pb-2"><span className="text-slate-600 font-medium">SSIM Achieved</span><span className="font-bold text-emerald-600">{adaptiveMetrics?.ssim?.toFixed(3)}</span></div>
             </div>
           </div>
 
-          <div className="bg-white border border-slate-200 rounded-3xl p-8 space-y-6">
-            <h3 className="font-black text-2xl text-slate-800">Fixed High Rank</h3>
+          <div className="bg-white border border-slate-200 rounded-3xl p-8 space-y-6 shadow-sm">
+            <h3 className="font-black text-2xl text-slate-800">Fixed Baseline</h3>
+            <p className="text-sm text-slate-500">A typical static rank chosen to ensure 95% of images pass the SSIM target.</p>
             
             <div className="space-y-4">
-              <div className="flex justify-between items-end border-b border-slate-100 pb-2"><span className="text-slate-600 font-medium">Rank</span><span className="font-bold text-xl text-slate-800">{fixedRank}</span></div>
-              <div className="flex justify-between items-end border-b border-slate-100 pb-2"><span className="text-slate-600 font-medium">SSIM</span><span className="font-bold text-slate-800">~0.98</span></div>
-              <div className="flex justify-between items-end border-b border-slate-100 pb-2"><span className="text-slate-600 font-medium">Components Retained</span><span className="font-bold text-slate-800">{((fixedRank/maxRank)*100).toFixed(1)}%</span></div>
+              <div className="flex justify-between items-end border-b border-slate-100 pb-2"><span className="text-slate-600 font-medium">Rank Used</span><span className="font-bold text-3xl text-slate-800">{fixedRank}</span></div>
+              <div className="flex justify-between items-end border-b border-slate-100 pb-2"><span className="text-slate-600 font-medium">Estimated SSIM</span><span className="font-bold text-slate-800">~0.98</span></div>
             </div>
           </div>
         </div>
 
-        {isWasting && (
-          <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 text-center text-amber-900 max-w-3xl mx-auto">
-            <strong>Additional {fixedRank - adaptiveRank} components retained unnecessarily!</strong><br/>
-            Once the target quality (SSIM ≥ {targetSsim.toFixed(2)}) is reached, additional components provide only a tiny visual improvement while drastically increasing the mathematical representation size.
+        {isWasting ? (
+          <div className="bg-rose-50 border border-rose-200 rounded-2xl p-6 text-center text-rose-900 max-w-3xl mx-auto shadow-sm">
+            <strong className="text-lg">Additional {fixedRank - adaptiveRank} components retained unnecessarily!</strong><br/><br/>
+            Because this image was simpler, the fixed rank over-retained data. Once the target quality is reached, additional components provide barely visible improvements while drastically increasing the mathematical representation size.
+          </div>
+        ) : (
+          <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-6 text-center text-emerald-900 max-w-3xl mx-auto shadow-sm">
+            <strong className="text-lg">Fixed rank would have FAILED!</strong><br/><br/>
+            This image is highly complex. If we had used the fixed rank of {fixedRank}, we would not have achieved your quality target!
           </div>
         )}
       </section>
@@ -575,9 +623,20 @@ export default function SmartSVD() {
     
     return (
       <section id="compare" className="max-w-6xl mx-auto py-16 space-y-12">
-        <div className="text-center">
+        <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Does every image need the same rank?</h2>
-          <p className="text-slate-600">We ran an experiment across 11 image categories (120 images) targeting SSIM = 0.90. Here is how the required rank varies by category.</p>
+          <p className="text-lg text-slate-600">We ran an experiment across 11 image categories (120 images) targeting SSIM = 0.90.</p>
+        </div>
+
+        <div className="bg-white border border-slate-200 rounded-3xl p-8 shadow-sm text-left">
+          <h3 className="text-xl font-bold text-slate-900 mb-4">The Role of Structural Complexity</h3>
+          <p className="text-slate-600 mb-6 leading-relaxed">
+            The mathematical rank required to achieve a target image quality is strongly correlated with the image's inherent <strong>structural complexity</strong> (e.g., edge density, textures, high-frequency details).
+            A highly detailed <strong>Document</strong> or <strong>Architecture</strong> image spreads its mathematical variance across many singular values because the sharp edges and details require many vectors to reconstruct. 
+            In contrast, a smooth <strong>Portrait</strong> or simple object captures most of its variance in just the first few components. 
+            <br/><br/>
+            This is exactly why using a <strong>fixed rank</strong> is suboptimal. If we set a rank high enough for complex images, we mathematically over-retain unnecessary components for simpler ones. 
+          </p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
