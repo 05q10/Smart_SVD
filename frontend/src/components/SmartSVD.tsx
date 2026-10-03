@@ -44,6 +44,11 @@ export default function SmartSVD() {
   const [adaptiveImage, setAdaptiveImage] = useState<string | null>(null);
   const [isAdaptiveLoading, setIsAdaptiveLoading] = useState(false);
 
+  // Baseline Comparison
+  const [baselineRank, setBaselineRank] = useState<number>(75);
+  const [baselineMetrics, setBaselineMetrics] = useState<any>(null);
+  const [isBaselineLoading, setIsBaselineLoading] = useState(false);
+
   // UPLOAD
   const processFile = async (file: File) => {
     const formData = new FormData();
@@ -137,6 +142,26 @@ export default function SmartSVD() {
       setIsAdaptiveLoading(false);
     }
   };
+
+  const handleBaselineReconstruct = async (id: string, rank: number) => {
+    setIsBaselineLoading(true);
+    try {
+      const res = await fetch(`${API_BASE}/reconstruct/${id}?rank=${rank}`);
+      const data = await res.json();
+      setBaselineMetrics(data.metrics);
+    } catch(err) { 
+      console.error(err); 
+    } finally {
+      setIsBaselineLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    if (imageId) {
+      const timer = setTimeout(() => handleBaselineReconstruct(imageId, baselineRank), 200);
+      return () => clearTimeout(timer);
+    }
+  }, [baselineRank, imageId]);
 
   useEffect(() => {
     if (imageId) {
@@ -457,13 +482,26 @@ export default function SmartSVD() {
 
   const WhyNotHighRank = () => {
     if (!adaptiveRank) return null;
-    const fixedRank = 75; // Our robust baseline from the experiment
-    const isWasting = fixedRank > adaptiveRank;
     
     return (
       <section className="max-w-5xl mx-auto py-16 space-y-10 border-b border-slate-200">
-        <h2 className="text-3xl font-bold text-slate-900 text-center">Why fixed ranks waste space</h2>
+        <div className="text-center">
+          <h2 className="text-3xl font-bold text-slate-900 mb-4">Why fixed ranks waste space</h2>
+          <p className="text-slate-600 max-w-2xl mx-auto">Compare the adaptive rank calculated specifically for this image against any fixed baseline.</p>
+        </div>
         
+        <div className="max-w-2xl mx-auto bg-slate-50 border border-slate-200 p-6 rounded-2xl shadow-sm mb-8">
+          <div className="flex justify-between items-center mb-4">
+            <h4 className="font-bold text-slate-800 text-sm uppercase tracking-wide">Adjust Fixed Baseline</h4>
+            <span className="font-mono bg-white px-3 py-1 rounded-md border border-slate-200 font-bold text-slate-700 text-sm">Rank: {baselineRank}</span>
+          </div>
+          <input 
+            type="range" min="1" max={maxRank} value={baselineRank}
+            onChange={(e) => setBaselineRank(parseInt(e.target.value))}
+            className="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-slate-600"
+          />
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-indigo-50 border-2 border-indigo-200 rounded-3xl p-8 space-y-6 relative overflow-hidden shadow-sm">
             <div className="absolute top-0 right-0 bg-indigo-600 text-white text-xs font-bold px-4 py-1 rounded-bl-xl">OUR ADAPTIVE SVD</div>
@@ -478,24 +516,38 @@ export default function SmartSVD() {
 
           <div className="bg-white border border-slate-200 rounded-3xl p-8 space-y-6 shadow-sm">
             <h3 className="font-black text-2xl text-slate-800">Fixed Baseline</h3>
-            <p className="text-sm text-slate-500">A typical static rank chosen to ensure 95% of images pass the SSIM target.</p>
+            <p className="text-sm text-slate-500">A static rank applied blindly to all images.</p>
             
             <div className="space-y-4">
-              <div className="flex justify-between items-end border-b border-slate-100 pb-2"><span className="text-slate-600 font-medium">Rank Used</span><span className="font-bold text-3xl text-slate-800">{fixedRank}</span></div>
-              <div className="flex justify-between items-end border-b border-slate-100 pb-2"><span className="text-slate-600 font-medium">Estimated SSIM</span><span className="font-bold text-slate-800">~0.98</span></div>
+              <div className="flex justify-between items-end border-b border-slate-100 pb-2"><span className="text-slate-600 font-medium">Rank Used</span><span className="font-bold text-3xl text-slate-800">{baselineRank}</span></div>
+              <div className="flex justify-between items-end border-b border-slate-100 pb-2">
+                <span className="text-slate-600 font-medium">Actual SSIM</span>
+                {isBaselineLoading ? (
+                  <span className="font-bold text-slate-400 text-sm">Calculating...</span>
+                ) : (
+                  <span className={`font-bold text-xl ${baselineMetrics?.ssim >= targetSsim ? 'text-emerald-600' : 'text-rose-600'}`}>{baselineMetrics?.ssim?.toFixed(3)}</span>
+                )}
+              </div>
             </div>
           </div>
         </div>
 
-        {isWasting ? (
+        {baselineRank > adaptiveRank && (
           <div className="bg-rose-50 border border-rose-200 rounded-2xl p-6 text-center text-rose-900 max-w-3xl mx-auto shadow-sm">
-            <strong className="text-lg">Additional {fixedRank - adaptiveRank} components retained unnecessarily!</strong><br/><br/>
-            Because this image was simpler, the fixed rank over-retained data. Once the target quality is reached, additional components provide barely visible improvements while drastically increasing the mathematical representation size.
+            <strong className="text-lg">Additional {baselineRank - adaptiveRank} components retained unnecessarily!</strong><br/><br/>
+            Because this image was simpler than the baseline assumption, the fixed rank over-retained data. Once the target quality is reached, additional components provide barely visible improvements while drastically increasing the mathematical representation size.
           </div>
-        ) : (
+        )}
+        {baselineRank < adaptiveRank && (
           <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-6 text-center text-emerald-900 max-w-3xl mx-auto shadow-sm">
-            <strong className="text-lg">Fixed rank would have FAILED!</strong><br/><br/>
-            This image is highly complex. If we had used the fixed rank of {fixedRank}, we would not have achieved your quality target!
+            <strong className="text-lg">Adaptive saved this image from FAILING!</strong><br/><br/>
+            This image is highly complex. If we had blindly used the fixed rank of {baselineRank}, we would not have achieved your quality target! Adaptive dynamically scaled up to {adaptiveRank} to ensure quality is met.
+          </div>
+        )}
+        {baselineRank === adaptiveRank && (
+          <div className="bg-indigo-50 border border-indigo-200 rounded-2xl p-6 text-center text-indigo-900 max-w-3xl mx-auto shadow-sm">
+            <strong className="text-lg">A Perfect Match!</strong><br/><br/>
+            In this very specific case, the fixed rank perfectly matches what the image needed. But as you can see by moving the slider or changing images, this is a rare coincidence!
           </div>
         )}
       </section>
