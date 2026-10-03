@@ -1,0 +1,16 @@
+# Environment
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Next.js / Node
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+
+# Data
+datasets/
+experiments/dataset/

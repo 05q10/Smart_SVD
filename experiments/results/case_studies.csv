@@ -1,0 +1,3 @@
+type,image_id,category,complexity,adaptive_rank,fixed_rank,adaptive_ssim,fixed_ssim,adaptive_reduction,fixed_reduction,target_success
+fixed_overretention,landscape_15,landscape,0.042999267578125,27,75,0.9013889872001598,4.8843729909058906e-06,78.86505126953125,41.29180908203125,False
+high_rank_required,indoor_5,indoor,0.2619476318359375,72,75,0.9025075896993003,0.002410083412454755,43.64013671875,41.29180908203125,False

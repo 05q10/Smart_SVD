@@ -1,0 +1,57 @@
+
+================================================
+SMART SVD EXPERIMENT SUMMARY
+================================================
+
+Dataset:
+120 images
+11 classes
+
+Target:
+SSIM >= 0.90
+
+Adaptive:
+Mean rank: 48.6
+Median rank: 58.0
+Mean representation reduction: 62.0%
+Target success: 100%
+
+Fixed baseline (Data-driven for 95% coverage):
+Rank: 75
+Target success: 100.0%
+Mean representation reduction: 41.3%
+
+Adaptive advantage vs 75:
+Mean excess components avoided: 26.4
+% images where fixed rank was too low: 0.0%
+% images where fixed rank was unnecessarily high: 100.0%
+
+Statistical Analysis (Adaptive vs Fixed):
+Wilcoxon p-value: 1.7564471257222176e-21
+
+Complexity relationship:
+Pearson r: 0.475
+Spearman rho: 0.327
+p-value: 4.246e-08
+
+================================================
+RESEARCH QUESTIONS
+================================================
+RQ1: Do different images require different ranks to achieve the same SSIM target?
+Yes. The required rank varied from 27 to 72 across the dataset.
+
+RQ2: Does adaptive rank selection satisfy the target quality across the dataset?
+Yes, by definition it achieved 100% success by selecting the necessary rank.
+
+RQ3: How often does a fixed-rank baseline fail to achieve the target?
+For a fixed rank of 50, it failed 53.3% of the time. 
+For our robust baseline of 75, it failed 0.0% of the time.
+
+RQ4: When fixed rank succeeds, how often does it retain more components than necessary?
+For the baseline of 75, it retained unnecessary components for 100.0% of the images.
+
+RQ5: How many additional components does the fixed strategy retain on average?
+When it over-retained, it wasted an average of 26.4 SVD components per image.
+
+RQ6: Is image complexity associated with required rank?
+Yes. There is a strong correlation (Pearson r = 0.475, p = 4.246e-08), meaning structurally complex images require more components.
